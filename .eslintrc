@@ -1,0 +1,15 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "globals": {
+    "React": "writable",
+    "window": true,
+    "document": true,
+    "webkit": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": "off",
+    "react/prop-types": "off",
+    "react/jsx-props-no-spreading": "off"
+  }
+}
